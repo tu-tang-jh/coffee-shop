@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Coffee Landing Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="header-left">
+          <a href="/"><img src="/assets/icons/BrownCoffeeLogo.png" /></a>
+        </nav>
+        <nav class="nav-links">
+          <ul class="nav-links__list">
+            <li class="nav-links__item"><a href="#products">Products</a></li>
+            <li class="nav-links__item"><a href="#about-us">About us</a></li>
+            <li class="nav-links__item">
+              <a href="#testimonial">Testimonial</a>
+            </li>
+            <li class="nav-links__item"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-right">
+            <img src="/assets/icons/IconSearch.png" />
+            <img src="/assets/icons/ShoppingBagOpen.png" />
+        </nav>
+      </header>
+
+      <!-- Content -->
+      <main class="content">
+        <!-- Hero Section -->
+         <div class="hero-section section">
+            <div class="hero-introduction">
+                <div class="hero-introduction main-header">
+                    Enjoy Your Favorite<br/>Coffee with Ngopi
+                </div>
+                <div class="hero-introduction sub-header">
+                    Discover tranquility at Ngopi a sanctuary for unwinding,<br/>where your evenings are perfected with relaxation and rich flavors.
+                </div>
+                <button type="button" class="more-button">
+                    <span>Explore product</span>
+                    <img src="/assets/icons/ArrowDownRight.png" />
+                </button>
+            </div>
+
+            <div class="hero-images">
+                <img src="/assets/images/hero-image1.jfif" alt="Hero image 1">
+                <img src="/assets/images/hero-image2.jfif" alt="Hero image 2">
+                <img src="/assets/images/hero-image3.jfif" alt="Hero image 3">
+                <img src="/assets/images/hero-image4.jfif" alt="Hero image 4">
+                <img src="/assets/images/hero-image5.jfif" alt="Hero image 5">
+            </div>
+         </div>
+
+         <img src="/assets/icons/Separator.png" />
+
+         <!-- Social Proof Section -->
+          <div class="social-proof-section section">
+            <div class="social-proof__item">
+                <span class="social-proof__item-number">30+</span>
+                <span class="social-proof__item-title">Coffee Variant</span>
+            </div>
+            <img src="/assets/icons/Intersect.png" />
+            <div class="social-proof__item">
+                <span class="social-proof__item-number">20+</span>
+                <span class="social-proof__item-title">Meeting Room</span>
+            </div>
+            <img src="/assets/icons/Intersect.png" />
+            <div class="social-proof__item">
+                <span class="social-proof__item-number">25+</span>
+                <span class="social-proof__item-title">Event Space</span>
+            </div>
+            <img src="/assets/icons/Intersect.png" />
+            <div class="social-proof__item">
+                <span class="social-proof__item-number">40+</span>
+                <span class="social-proof__item-title">Global Achievement</span>
+            </div>
+          </div>
+
+         <img src="/assets/icons/Separator.png" />
+
+         <!-- Product Section -->
+         <div id="products" class="product-section section">
+            <div class="product-section-header header-section">
+                <span class="sub-header">Our products</span>
+                <span class="main-header">From Top Quality Materials</span>
+            </div>
+
+            <div class="product-section-content">
+                <div class="product-section__tab-panel">
+                    <span class="tab-panel__item active">Latte</span>
+                    <span class="tab-panel__item">Robusta</span>
+                    <span class="tab-panel__item">Acabica</span>
+                </div>
+                <div class="product-section__list">
+                    <div class="product-card col-3">
+                        <div class="product-card__header">
+                            <img src="/assets/images/product-image1.jfif" />
+                        </div>
+                        <div class="product-card__content">
+                            <div class="product-card__title">Chocolate Latte</div>
+                            <div class="product-card__rating-reviews">
+                                <div class="rating">
+                                    <img src="/assets/icons/FilledStar.png" />
+                                    <span>4.9</span>
+                                </div>
+                                <span class="reviews">(360 reviews)</s>
+                            </div>  
+                            <div class="product-card__description">Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</div>
+                            <div class="product-card__price-more">
+                                <span class="product-card__price">$2.9</span>
+                                <button type="button" class="product-card__add-button">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card col-3">
+                        <div class="product-card__header">
+                            <img src="/assets/images/product-image2.jfif" />
+                        </div>
+                        <div class="product-card__content">
+                            <div class="product-card__title">Mocha Latte</div>
+                            <div class="product-card__rating-reviews">
+                                <div class="rating">
+                                    <img src="/assets/icons/FilledStar.png" />
+                                    <span>5.0</span>
+                                </div>
+                                <span class="reviews">(180 reviews)</s>
+                            </div>  
+                            <div class="product-card__description">Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</div>
+                            <div class="product-card__price-more">
+                                <span class="product-card__price">$2.7</span>
+                                <button type="button" class="product-card__add-button">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card col-3">
+                        <div class="product-card__header">
+                            <img src="/assets/images/product-image3.jfif" />
+                        </div>
+                        <div class="product-card__content">
+                            <div class="product-card__title">Coffe Latte</div>
+                            <div class="product-card__rating-reviews">
+                                <div class="rating">
+                                    <img src="/assets/icons/FilledStar.png" />
+                                    <span>4.8</span>
+                                </div>
+                                <span class="reviews">(450 reviews)</s>
+                            </div>  
+                            <div class="product-card__description">Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</div>
+                            <div class="product-card__price-more">
+                                <span class="product-card__price">$2.9</span>
+                                <button type="button" class="product-card__add-button">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card col-3">
+                        <div class="product-card__header">
+                            <img src="/assets/images/product-image1.jfif" />
+                        </div>
+                        <div class="product-card__content">
+                            <div class="product-card__title">Hazelnut Latte</div>
+                            <div class="product-card__rating-reviews">
+                                <div class="rating">
+                                    <img src="/assets/icons/FilledStar.png" />
+                                    <span>4.9</span>
+                                </div>
+                                <span class="reviews">(390 reviews)</s>
+                            </div>  
+                            <div class="product-card__description">Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla</div>
+                            <div class="product-card__price-more">
+                                <span class="product-card__price">$2.8</span>
+                                <button type="button" class="product-card__add-button">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-section__more">
+                    <img src="/assets/icons/More.png" />
+                </div>
+            </div> 
+         </div>
+
+         <img src="/assets/icons/Separator.png" />
+
+        <!-- About Us Section -->
+        <div id="about-us" class="about-us-section section">
+            <div class="about-us-header header-section">
+                <span class="sub-header">About us</span>
+                <span class="main-header">Why we are the best</span>
+            </div>
+
+            <div class="about-us__content">
+                <div class="about-us__content-left col-6">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet. Integer sed pretium odio lectus at malesuada sed eget nunc. Viverra malesuada viverra id vel tortor dui adipiscing.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet. Integer sed pretium odio lectus at malesuada sed eget nunc.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet.
+                    </p>
+                    <button type="button" class="more-button">
+                        <span>Read more</span>
+                        <img src="/assets/icons/ArrowDownRight.png" />
+                    </button>
+                </div>
+                <div class="about-us__content-right col-6">
+                    <img src="/assets/images/hero-image2.jfif" class="col-6" alt="Hero image 2">
+                    <img src="/assets/images/hero-image1.jfif" class="col-6" alt="Hero image 1">
+                </div>
+            </div>
+        </div>
+
+        <img src="/assets/icons/Separator.png" />
+
+        <!-- Testimonial Section -->
+        <div id="testimonial" class="testimonial-section section">
+            <div class="testimonial-header header-section">
+                <span class="sub-header">Testimonial</span>
+                <span class="main-header">What our buyers say</span>
+            </div>
+
+            <div class="testimonial-section__content">
+                <div class="testimonial-section__list">
+                    <div class="testimonial-card col-4">
+                       <div class="user-information">
+                        <div class="user-information__avatar">
+                            <img src="/assets/images/user1.jfif" />
+                        </div>
+                        <div class="user-information__name-rating">
+                            <p class="user-name">Michael Wong</p>
+                            <div class="user-rating">
+                                <img src="/assets/icons/FilledStar.png" />
+                                <img src="/assets/icons/FilledStar.png" />
+                                <img src="/assets/icons/FilledStar.png" />
+                                <img src="/assets/icons/FilledStar.png" />
+                                <img src="/assets/icons/FilledStar.png" />
+                            </div>
+                        </div>
+                       </div>
+                       <div class="user-review">
+                        Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet. Integer sed pretium odio lectus at malesuada sed eget nunc. Viverra malesuada viverra id vel tortor dui adipiscing.
+                       </div>
+                    </div>
+                    <div class="testimonial-card col-4">
+                       <div class="user-information">
+                        <div class="user-information__avatar">
+                            <img src="/assets/images/user2.jfif" />
+                        </div>
+                        <div class="user-information__name-rating">
+                            <p class="user-name">Arvil Song</p>
+                            <div class="user-rating">
+                                <img src="/assets/icons/FilledStar.png" />
+                                <img src="/assets/icons/FilledStar.png" />
+                                <img src="/assets/icons/FilledStar.png" />
+                                <img src="/assets/icons/FilledStar.png" />
+                                <img src="/assets/icons/EmptyStar.png" />
+                            </div>
+                        </div>
+                       </div>
+                       <div class="user-review">
+                        Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet. Integer sed pretium odio lectus at malesuada sed eget nunc. Viverra malesuada viverra id vel tortor dui adipiscing.
+                       </div>
+                    </div>
+                    <div class="testimonial-card col-4">
+                       <div class="user-information">
+                        <div class="user-information__avatar">
+                            <img src="/assets/images/user3.jfif" />
+                        </div>
+                        <div class="user-information__name-rating">
+                            <p class="user-name">Jeanne Wood</p>
+                            <div class="user-rating">
+                                <img src="/assets/icons/FilledStar.png" />
+                                <img src="/assets/icons/FilledStar.png" />
+                                <img src="/assets/icons/FilledStar.png" />
+                                <img src="/assets/icons/FilledStar.png" />
+                                <img src="/assets/icons/EmptyStar.png" />
+                            </div>
+                        </div>
+                       </div>
+                       <div class="user-review">
+                        Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet. Integer sed pretium odio lectus at malesuada sed eget nunc. Viverra malesuada viverra id vel tortor dui adipiscing.
+                       </div>
+                    </div>
+                </div>
+                <div class="testimonial-section__more">
+                    <img src="/assets/icons/More.png" />
+                </div>
+            </div> 
+        </div>
+
+        <img src="/assets/icons/Separator.png" />
+
+        <!-- Blogs Section -->
+        <div class="blog-section section">
+            <div class="blog-header header-section">
+                <span class="sub-header">Blog</span>
+                <span class="main-header">Read our articles</span>
+            </div>
+            <div class="blog-section__list">
+                <div class="blog-card col-4">
+                    <img src="/assets/images/blog1.jfif" class="blog-card__img" />
+                    <div class="blog-card__user-date">
+                        <div class="blog-card__user">
+                            <img src="/assets/icons/User.png" />
+                            <span>John Doe</span>
+                        </div>
+                        <div class="blog-card__date">
+                            <img src="/assets/icons/CalendarBlank.png" />
+                            <span>Feb 23, 2024</span>
+                        </div>
+                    </div>
+                    <div class="blog-card__description">Lorem ipsum dolor sit amet consectetur. Est tempor morbi pellentesque.</div>
+                    <a class="blog-card__view-details" href="/">
+                        <span>View details</span>
+                        <img src="/assets/icons/CaretRight.png" />
+                    </a>
+                </div>
+                <div class="blog-card col-4">
+                    <img src="/assets/images/blog2.jfif" class="blog-card__img" />
+                    <div class="blog-card__user-date">
+                        <div class="blog-card__user">
+                            <img src="/assets/icons/User.png" />
+                            <span>John Doe</span>
+                        </div>
+                        <div class="blog-card__date">
+                            <img src="/assets/icons/CalendarBlank.png" />
+                            <span>Feb 23, 2024</span>
+                        </div>
+                    </div>
+                    <div class="blog-card__description">Lorem ipsum dolor sit amet consectetur. Est tempor morbi pellentesque.</div>
+                    <a class="blog-card__view-details" href="/">
+                        <span>View details</span>
+                        <img src="/assets/icons/CaretRight.png" />
+                    </a>
+                </div>
+                <div class="blog-card col-4">
+                    <img src="/assets/images/blog3.jfif" class="blog-card__img" />
+                    <div class="blog-card__user-date">
+                        <div class="blog-card__user">
+                            <img src="/assets/icons/User.png" />
+                            <span>John Doe</span>
+                        </div>
+                        <div class="blog-card__date">
+                            <img src="/assets/icons/CalendarBlank.png" />
+                            <span>Feb 23, 2024</span>
+                        </div>
+                    </div>
+                    <div class="blog-card__description">Lorem ipsum dolor sit amet consectetur. Est tempor morbi pellentesque.</div>
+                    <a class="blog-card__view-details" href="/">
+                        <span>View details</span>
+                        <img src="/assets/icons/CaretRight.png" />
+                    </a>
+                </div>
+            </div>
+            <button type="button" class="more-button">
+                <span>Read more</span>
+                <img src="/assets/icons/ArrowDownRight.png" />
+            </button>
+        </div>
+
+        <!-- Footer -->
+        <footer id="contact" class="footer-section section">
+            <div class="footer-section__left col-3">
+                <img class="logo" src="/assets/icons/LogoFooter.png"/>
+                <p class="description">Discover tranquility at Ngopi a sanctuary for unwinding, where your evenings are perfected with relaxation and rich flavors.</p>
+                <p class="contact">hello@ngopi.com <br/> Phone : +01 23456789</p>
+            </div>
+            <div class="footer-section__right col-9">
+                <div class="footer-section__links">
+                    <div class="footer-section__link-group">
+                        <div class="link-group__name">Quick Links</div>
+                        <nav>
+                            <ul>
+                                <li>Services</li>
+                                <li>Portfolio</li>
+                                <li>About us</li>
+                                <li>Testimonial</li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer-section__link-group">
+                        <div class="link-group__name">Resources</div>
+                        <nav>
+                            <ul>
+                                <li>Support</li>
+                                <li>Privacy Policy</li>
+                                <li>Terms & Conditions</li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer-section__link-group">
+                        <div class="link-group__name">Social Media</div>
+                        <nav>
+                            <ul class="social-media">
+                                <li>
+                                    <img class="logo" src="/assets/icons/Facebook.png"/>
+                                </li>
+                                <li>
+                                    <img class="logo" src="/assets/icons/Twitter.png"/>
+                                </li>
+                                <li>
+                                    <img class="logo" src="/assets/icons/Instagram.png"/>
+                                </li>
+                                <li>
+                                    <img class="logo" src="/assets/icons/Linkedin.png"/>
+                                </li>
+                                <li>
+                                    <img class="logo" src="/assets/icons/Youtube.png"/>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="footer-section__subscribe">
+                        <div class="subscribe__name">Subscribe</div>
+                        <div class="subscribe__group">
+                            <div class="subscribe__input-group">
+                                <img class="logo" src="/assets/icons/EnvelopeSimple.png"/>
+                                <input class="input" type="text" placeholder="name@domain.com">
+                            </div>
+                            <button class="send-button" type="submit">Send</button>
+                        </div>
+                </div>
+            </div>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
