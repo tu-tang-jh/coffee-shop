@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
     <title>Coffee Landing Page</title>
   </head>
   <body>
@@ -25,6 +27,9 @@
         <div class="header-right">
             <img src="/assets/icons/IconSearch.png" />
             <img src="/assets/icons/ShoppingBagOpen.png" />
+            <button class="hambuger-menu">
+                <img src="/assets/icons/HambugerMenu.png" />
+            </button>
         </nav>
       </header>
 
@@ -54,7 +59,9 @@
             </div>
          </div>
 
-         <img src="/assets/icons/Separator.png" />
+         <div class="separator">
+             <img src="/assets/icons/Separator.png" />
+         </div>
 
          <!-- Social Proof Section -->
           <div class="social-proof-section section">
@@ -62,24 +69,32 @@
                 <span class="social-proof__item-number">30+</span>
                 <span class="social-proof__item-title">Coffee Variant</span>
             </div>
-            <img src="/assets/icons/Intersect.png" />
+            <div class="intersect">
+                <img src="/assets/icons/Intersect.png" />
+            </div>
             <div class="social-proof__item">
                 <span class="social-proof__item-number">20+</span>
                 <span class="social-proof__item-title">Meeting Room</span>
             </div>
-            <img src="/assets/icons/Intersect.png" />
+            <div class="intersect">
+                <img src="/assets/icons/Intersect.png" />
+            </div>
             <div class="social-proof__item">
                 <span class="social-proof__item-number">25+</span>
                 <span class="social-proof__item-title">Event Space</span>
             </div>
-            <img src="/assets/icons/Intersect.png" />
+            <div class="intersect">
+                <img src="/assets/icons/Intersect.png" />
+            </div>
             <div class="social-proof__item">
                 <span class="social-proof__item-number">40+</span>
                 <span class="social-proof__item-title">Global Achievement</span>
             </div>
           </div>
 
-         <img src="/assets/icons/Separator.png" />
+          <div class="separator">
+            <img src="/assets/icons/Separator.png" />
+        </div>
 
          <!-- Product Section -->
          <div id="products" class="product-section section">
@@ -95,7 +110,7 @@
                     <span class="tab-panel__item">Acabica</span>
                 </div>
                 <div class="product-section__list">
-                    <div class="product-card col-3">
+                    <div class="product-card col-lg-3 col-md-6 col-sm-12">
                         <div class="product-card__header">
                             <img src="/assets/images/product-image1.jfif" />
                         </div>
@@ -115,7 +130,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="product-card col-3">
+                    <div class="product-card col-lg-3 col-md-6 col-sm-12">
                         <div class="product-card__header">
                             <img src="/assets/images/product-image2.jfif" />
                         </div>
@@ -135,7 +150,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="product-card col-3">
+                    <div class="product-card col-lg-3 col-md-6 col-sm-12">
                         <div class="product-card__header">
                             <img src="/assets/images/product-image3.jfif" />
                         </div>
@@ -155,7 +170,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="product-card col-3">
+                    <div class="product-card col-lg-3 col-md-6 col-sm-12">
                         <div class="product-card__header">
                             <img src="/assets/images/product-image1.jfif" />
                         </div>
@@ -182,7 +197,9 @@
             </div> 
          </div>
 
-         <img src="/assets/icons/Separator.png" />
+         <div class="separator">
+            <img src="/assets/icons/Separator.png" />
+        </div>
 
         <!-- About Us Section -->
         <div id="about-us" class="about-us-section section">
@@ -192,7 +209,7 @@
             </div>
 
             <div class="about-us__content">
-                <div class="about-us__content-left col-6">
+                <div class="about-us__content-left col-lg-6 col-md-12 col-sm-12">
                     <p>
                         Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet. Integer sed pretium odio lectus at malesuada sed eget nunc. Viverra malesuada viverra id vel tortor dui adipiscing.
                     </p>
@@ -207,14 +224,16 @@
                         <img src="/assets/icons/ArrowDownRight.png" />
                     </button>
                 </div>
-                <div class="about-us__content-right col-6">
-                    <img src="/assets/images/hero-image2.jfif" class="col-6" alt="Hero image 2">
-                    <img src="/assets/images/hero-image1.jfif" class="col-6" alt="Hero image 1">
+                <div class="about-us__content-right col-lg-6 col-md-12 col-sm-12">  
+                    <img src="/assets/images/hero-image2.jfif" class="col-lg-6 col-md-6 col-sm-12" alt="Hero image 2">
+                    <img src="/assets/images/hero-image1.jfif" class="col-lg-6 col-md-6 col-sm-12" alt="Hero image 1">
                 </div>
             </div>
         </div>
 
-        <img src="/assets/icons/Separator.png" />
+        <div class="separator">
+            <img src="/assets/icons/Separator.png" />
+        </div>
 
         <!-- Testimonial Section -->
         <div id="testimonial" class="testimonial-section section">
@@ -225,7 +244,7 @@
 
             <div class="testimonial-section__content">
                 <div class="testimonial-section__list">
-                    <div class="testimonial-card col-4">
+                    <div class="testimonial-card col-lg-4 col-md-12 col-sm-12">
                        <div class="user-information">
                         <div class="user-information__avatar">
                             <img src="/assets/images/user1.jfif" />
@@ -245,7 +264,7 @@
                         Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet. Integer sed pretium odio lectus at malesuada sed eget nunc. Viverra malesuada viverra id vel tortor dui adipiscing.
                        </div>
                     </div>
-                    <div class="testimonial-card col-4">
+                    <div class="testimonial-card col-lg-4 col-md-12 col-sm-12">
                        <div class="user-information">
                         <div class="user-information__avatar">
                             <img src="/assets/images/user2.jfif" />
@@ -265,7 +284,7 @@
                         Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet. Integer sed pretium odio lectus at malesuada sed eget nunc. Viverra malesuada viverra id vel tortor dui adipiscing.
                        </div>
                     </div>
-                    <div class="testimonial-card col-4">
+                    <div class="testimonial-card col-lg-4 col-md-12 col-sm-12">
                        <div class="user-information">
                         <div class="user-information__avatar">
                             <img src="/assets/images/user3.jfif" />
@@ -292,7 +311,9 @@
             </div> 
         </div>
 
-        <img src="/assets/icons/Separator.png" />
+        <div class="separator">
+            <img src="/assets/icons/Separator.png" />
+        </div>
 
         <!-- Blogs Section -->
         <div class="blog-section section">
@@ -301,7 +322,7 @@
                 <span class="main-header">Read our articles</span>
             </div>
             <div class="blog-section__list">
-                <div class="blog-card col-4">
+                <div class="blog-card col-lg-4 col-md-6 col-sm-10">
                     <img src="/assets/images/blog1.jfif" class="blog-card__img" />
                     <div class="blog-card__user-date">
                         <div class="blog-card__user">
@@ -319,7 +340,7 @@
                         <img src="/assets/icons/CaretRight.png" />
                     </a>
                 </div>
-                <div class="blog-card col-4">
+                <div class="blog-card col-lg-4 col-md-6 col-sm-10">
                     <img src="/assets/images/blog2.jfif" class="blog-card__img" />
                     <div class="blog-card__user-date">
                         <div class="blog-card__user">
@@ -337,7 +358,7 @@
                         <img src="/assets/icons/CaretRight.png" />
                     </a>
                 </div>
-                <div class="blog-card col-4">
+                <div class="blog-card col-lg-4 col-md-6 col-sm-10">
                     <img src="/assets/images/blog3.jfif" class="blog-card__img" />
                     <div class="blog-card__user-date">
                         <div class="blog-card__user">
@@ -364,12 +385,12 @@
 
         <!-- Footer -->
         <footer id="contact" class="footer-section section">
-            <div class="footer-section__left col-3">
+            <div class="footer-section__left col-lg-3 col-md-12 col-sm-12">
                 <img class="logo" src="/assets/icons/LogoFooter.png"/>
                 <p class="description">Discover tranquility at Ngopi a sanctuary for unwinding, where your evenings are perfected with relaxation and rich flavors.</p>
                 <p class="contact">hello@ngopi.com <br/> Phone : +01 23456789</p>
             </div>
-            <div class="footer-section__right col-9">
+            <div class="footer-section__right col-lg-9 col-md-12 col-sm-12">
                 <div class="footer-section__links">
                     <div class="footer-section__link-group">
                         <div class="link-group__name">Quick Links</div>
