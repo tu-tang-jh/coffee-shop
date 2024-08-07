@@ -125,10 +125,15 @@ header.header {
   background: #fff;
   z-index: 100;
 
-  .nav-links__list {
+  .nav-links {
     display: flex;
-    gap: 56px;
-    font-weight: 400;
+    align-items: center;
+
+    .nav-links__list {
+      display: flex;
+      gap: 56px;
+      font-weight: 400;
+    }
   }
 
   .header-right {
@@ -647,7 +652,7 @@ main.content {
 
     a {
       cursor: pointer;
-      padding: 12px 64px;
+      padding: 16px 0;
       text-align: center;
 
       &:hover {

@@ -1,15 +1,16 @@
 // @ts-nocheck
 const hamburgerModal = document.getElementById("myModal");
 const hamburgerButton = document.getElementById("hamburger-menu");
-const closeHambugerButton = document.getElementsByClassName("close")[0];
+const closeHamburgerButton = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal
 hamburgerButton.onclick = () => {
   hamburgerModal.style.display = "block";
+  document.body.style.overflow = "hidden";
 };
 
 // When the user clicks on <span> (x), close the modal
-closeHambugerButton.onclick = () => {
+closeHamburgerButton.onclick = () => {
   hamburgerModal.style.display = "none";
 };
 
@@ -20,5 +21,6 @@ window.onclick = (event) => {
     event.target.getAttribute("class") == "hamburger-menu-link"
   ) {
     hamburgerModal.style.display = "none";
+    document.body.style.overflow = "scroll";
   }
 };
