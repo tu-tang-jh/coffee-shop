@@ -27,11 +27,17 @@
         <div class="header-right">
             <img src="/assets/icons/IconSearch.png" />
             <img src="/assets/icons/ShoppingBagOpen.png" />
-            <button class="hambuger-menu">
+            <button type="button" class="hambuger-menu" onclick="handleClickHambugerButton()">
                 <img src="/assets/icons/HambugerMenu.png" />
             </button>
-        </nav>
+        </div>
       </header>
+      <div id="hambuger-menu-links">
+        <a href="#news">Products</a>
+        <a href="#about-us">About us</a>
+        <a href="#testimonial">Testimonial</a>
+        <a href="#contact">Contact</a>
+      </div>
 
       <!-- Content -->
       <main class="content">
@@ -450,5 +456,7 @@
         </footer>
       </main>
     </div>
+
+    <script src="js/utils.js"></script>
   </body>
 </html>

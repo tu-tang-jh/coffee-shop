@@ -7,6 +7,8 @@
   --neutral-black: #282a3a;
   --bright-grey: #f6f6f6;
   --neutral-grey: #d9d9d9;
+  --header-lg-height: 88px;
+  --header-md-height: 60px;
 }
 
 * {
@@ -32,6 +34,13 @@ a {
 
 button {
   border: none;
+  cursor: pointer;
+  opacity: 1;
+  transition: ease-in-out 0.3s;
+
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
 input {
@@ -47,43 +56,6 @@ body {
   height: 100vh;
   font-size: 1.25rem;
 }
-/* 
-.col-1 {
-  width: 8.33%;
-}
-.col-2 {
-  width: 16.66%;
-}
-.col-3 {
-  width: 25%;
-}
-.col-4 {
-  width: 33.33%;
-}
-.col-5 {
-  width: 41.66%;
-}
-.col-6 {
-  width: 50%;
-}
-.col-7 {
-  width: 58.33%;
-}
-.col-8 {
-  width: 66.66%;
-}
-.col-9 {
-  width: 75%;
-}
-.col-10 {
-  width: 83.33%;
-}
-.col-11 {
-  width: 91.66%;
-}
-.col-12 {
-  width: 100%;
-} */
 
 .container {
   display: flex;
@@ -143,9 +115,15 @@ body {
   }
 }
 
-.header {
+header.header {
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 100;
 
   .nav-links__list {
     display: flex;
@@ -171,7 +149,13 @@ body {
   }
 }
 
-.content {
+#hambuger-menu-links {
+  display: none;
+}
+
+main.content {
+  position: relative;
+
   .hero-section {
     display: flex;
     flex-direction: column;
@@ -246,22 +230,15 @@ body {
       gap: 40px;
 
       .product-section__tab-panel {
-        width: fit-content;
-        height: 77px;
         background-color: var(--bright-grey);
         border-radius: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 8px;
 
         .tab-panel__item {
-          width: 180px;
           display: flex;
           justify-content: center;
-          gap: 10px;
-          padding: 16px 40px;
-          font-size: 24px;
         }
 
         .active {
@@ -408,7 +385,6 @@ body {
           display: flex;
           flex-direction: column;
           gap: 16px;
-          padding: 24px 40px;
 
           .user-information {
             display: flex;
@@ -458,7 +434,7 @@ body {
 
     .blog-section__list {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       gap: 32px;
 
       .blog-card {
@@ -471,7 +447,6 @@ body {
         overflow: hidden;
 
         .blog-card__img {
-          max-width: 373px;
           height: 320px;
           object-fit: cover;
           border-radius: 0 80px;
