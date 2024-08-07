@@ -114,7 +114,12 @@
     .footer-section__right {
       .footer-section__subscribe {
         .subscribe__group {
+          .subscribe__input-group {
+            width: 80%;
+          }
+
           .send-button {
+            width: 20%;
             padding: 16px 64px;
           }
         }
@@ -288,8 +293,17 @@
     flex-direction: column;
 
     .footer-section__right {
-      .send-button {
-        padding: 16px 48px;
+      .footer-section__subscribe {
+        .subscribe__group {
+          .subscribe__input-group {
+            width: 70%;
+          }
+
+          .send-button {
+            width: 30%;
+            padding: 16px 48px;
+          }
+        }
       }
     }
   }
@@ -428,8 +442,12 @@
         gap: 24px;
       }
 
-      .send-button {
-        padding: 16px 24px;
+      .footer-section__subscribe {
+        .subscribe__group {
+          .send-button {
+            padding: 16px 20px;
+          }
+        }
       }
     }
   }

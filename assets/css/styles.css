@@ -589,6 +589,7 @@ main.content {
             }
 
             .input {
+              width: inherit;
               flex: 1;
               color: #fff;
               background-color: transparent;
@@ -598,7 +599,8 @@ main.content {
           }
 
           .send-button {
-            width: fit-content;
+            display: flex;
+            justify-content: center;
             max-width: 180px;
             color: #fff;
             background-color: var(--primary-color);
