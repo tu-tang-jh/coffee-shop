@@ -27,17 +27,11 @@
         <div class="header-right">
             <img src="/assets/icons/IconSearch.png" />
             <img src="/assets/icons/ShoppingBagOpen.png" />
-            <button type="button" class="hambuger-menu" onclick="handleClickHambugerButton()">
+            <button type="button" id="hamburger-menu" class="hamburger-menu" onclick="handleClickHambugerButton()">
                 <img src="/assets/icons/HambugerMenu.png" />
             </button>
         </div>
       </header>
-      <div id="hambuger-menu-links">
-        <a href="#news">Products</a>
-        <a href="#about-us">About us</a>
-        <a href="#testimonial">Testimonial</a>
-        <a href="#contact">Contact</a>
-      </div>
 
       <!-- Content -->
       <main class="content">
@@ -328,7 +322,7 @@
                 <span class="main-header">Read our articles</span>
             </div>
             <div class="blog-section__list">
-                <div class="blog-card col-lg-4 col-md-6 col-sm-10">
+                <div class="blog-card col-lg-4 col-md-6 col-sm-12">
                     <img src="/assets/images/blog1.jfif" class="blog-card__img" />
                     <div class="blog-card__user-date">
                         <div class="blog-card__user">
@@ -346,7 +340,7 @@
                         <img src="/assets/icons/CaretRight.png" />
                     </a>
                 </div>
-                <div class="blog-card col-lg-4 col-md-6 col-sm-10">
+                <div class="blog-card col-lg-4 col-md-6 col-sm-12">
                     <img src="/assets/images/blog2.jfif" class="blog-card__img" />
                     <div class="blog-card__user-date">
                         <div class="blog-card__user">
@@ -364,7 +358,7 @@
                         <img src="/assets/icons/CaretRight.png" />
                     </a>
                 </div>
-                <div class="blog-card col-lg-4 col-md-6 col-sm-10">
+                <div class="blog-card col-lg-4 col-md-6 col-sm-12">
                     <img src="/assets/images/blog3.jfif" class="blog-card__img" />
                     <div class="blog-card__user-date">
                         <div class="blog-card__user">
@@ -455,6 +449,21 @@
             </div>
         </footer>
       </main>
+    </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">&times;</span>
+        </div>
+        <div class="modal-body">
+            <a class="hamburger-menu-link" href="#products">Products</a>
+            <a class="hamburger-menu-link" href="#about-us">About us</a>
+            <a class="hamburger-menu-link" href="#testimonial">Testimonial</a>
+            <a class="hamburger-menu-link" href="#contact">Contact</a>
+        </div>
+        </div>
     </div>
 
     <script src="js/utils.js"></script>

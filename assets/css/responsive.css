@@ -1,10 +1,5 @@
 /* PC */
 @media screen and (min-width: 992px) {
-  #hambuger-menu-links {
-    display: none;
-    margin-top: var(--header-lg-height);
-  }
-
   .section {
     padding: 80px;
   }
@@ -109,6 +104,7 @@
   }
 
   .footer-section {
+    gap: 80px;
     flex-direction: row;
 
     .footer-section__right {
@@ -130,11 +126,6 @@
 
 /* Large devices (laptops/desktops, 992px and less) */
 @media screen and (max-width: 992px) {
-  #hambuger-menu-links {
-    display: none;
-    margin-top: var(--header-md-height);
-  }
-
   .section {
     padding: 64px;
   }
@@ -291,6 +282,7 @@
 
   .footer-section {
     flex-direction: column;
+    gap: 60px;
 
     .footer-section__right {
       .footer-section__subscribe {
@@ -311,22 +303,6 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
-  #hambuger-menu-links {
-    display: none;
-    background: #c79b9b14;
-    flex-direction: column;
-
-    a {
-      cursor: pointer;
-      padding: 12px 64px;
-
-      &:hover {
-        color: #fff;
-        background: var(--primary-color);
-      }
-    }
-  }
-
   .section {
     padding: 24px;
   }
@@ -345,7 +321,7 @@
     }
 
     .header-right {
-      button.hambuger-menu {
+      button.hamburger-menu {
         display: block !important;
       }
     }
@@ -429,13 +405,17 @@
 
       .blog-card {
         .blog-card__img {
-          max-width: 400px;
+          max-width: 500px;
         }
       }
     }
   }
 
   .footer-section {
+    padding-top: 52px;
+    padding-bottom: 52px;
+    gap: 40px;
+
     .footer-section__right {
       .footer-section__links {
         flex-direction: column;
